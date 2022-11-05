@@ -12,7 +12,7 @@ def pascal_triangle(depth):
     if depth <= 0:
         return [] 
     elif depth == 1:
-        return [1]
+        return [[1]]
     
     triangle = [[1], [1,1]]
 
