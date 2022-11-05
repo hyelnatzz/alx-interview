@@ -1,5 +1,14 @@
+#!/usr/bin/python3
+
+"""
+a module for creating a pascal triangle
+"""
 
 def pascal_triangle(depth):
+    """
+    :input: triangle depth
+    :returns: list of list
+    """
     if depth <= 0:
         return [] 
     
